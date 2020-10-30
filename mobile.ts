@@ -2,13 +2,16 @@ export class Mobile {
     public name: string;
     public model: string;
     public trademark: string;
-    public sdSide: number;
+    public sdSide: string;
     public color: string;
     public cameraNumber: number;
     public is5G: string;
     public price: number;
 
-        constructor(name: string, model: string, trademark: string, sdSide: number, color: string, cameraNumber: number, is5G: string, price: number) {
+
+
+
+        constructor(name: string, model: string, trademark: string, sdSide: string, color: string, cameraNumber: number, is5G: string, price: number) {
             this.name = name;
             this.model = model;
             this.trademark = trademark;
